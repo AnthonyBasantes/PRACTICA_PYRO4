@@ -35,7 +35,7 @@ class Calculadora:
 
 
 def main():
-    ip_servidor = "172.17.44.97"
+    ip_servidor = "127.0.0.1"
 
     with Pyro4.Daemon(host=ip_servidor) as daemon:
         uri = daemon.register(Calculadora)
