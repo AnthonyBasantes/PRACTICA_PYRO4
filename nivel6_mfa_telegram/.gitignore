@@ -1,3 +1,20 @@
-.env
+# Entorno virtual
+venv/
+.venv/
+
+# Archivos de Python
 __pycache__/
 *.pyc
+
+# Credenciales privadas
+.env
+
+# Bases de datos locales
+usuarios.db
+usuarios.db-journal
+usuarios.db-wal
+usuarios.db-shm
+*.db
+
+# Archivos de respaldo
+servidor_anterior.py
